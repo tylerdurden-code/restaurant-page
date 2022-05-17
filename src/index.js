@@ -1,2 +1,8 @@
-console.log('bored but a webpack master fo sur')
-console.log('first things first')
+function home() {
+    console.log('wine wine')
+}
+
+const homeBtn = document.querySelector('#home')
+homeBtn.addEventListener('click',() => {
+    home();
+})
