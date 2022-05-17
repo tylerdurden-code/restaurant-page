@@ -1,0 +1,70 @@
+*,*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    border: 5px solid green;
+    height: 70px;
+    width: 100vw;
+    display: flex;
+}
+.homepage {
+    border: 5px solid green;
+    height: 800px;
+    display: flex;
+    gap: 20px;
+    font-style: italic;
+    align-items: center;
+
+}
+.w {
+    color: red;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.tabs {
+    border: 5px solid green;
+    color: red;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+#home, #collection, #contact {
+    font-size: 30px;
+    border: none;
+    color: red;
+    background-color: black;
+    cursor: pointer;
+}
+
+#home:hover, #collection:hover, #contact:hover {
+    border-bottom: 2px solid red;
+}
+
+#winebackground {
+    height: 300px;
+    width: 720px;
+}
+
+.home-text {
+    color: white;
+}
