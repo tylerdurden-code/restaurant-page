@@ -5,7 +5,7 @@
 }
 
 
-body{
+body {
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -22,12 +22,12 @@ body{
     display: flex;
 }
 .homepage {
-    border: 5px solid green;
-    height: 800px;
+    height: 700px;
     display: flex;
     gap: 20px;
     font-style: italic;
     align-items: center;
+    justify-content: center;
 
 }
 .w {
@@ -61,10 +61,55 @@ body{
 }
 
 #winebackground {
-    height: 300px;
-    width: 720px;
+    height: 486px;
+    width: 270px;
 }
 
 .home-text {
     color: white;
+}
+
+.footer {
+    background-color: #800000;
+    border: 5px solid green;
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+.container {
+    flex: 1;
+    border: 5px solid green;
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+.footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#githubpng {
+    height: 30px;
+    width: 30px;
+    transition: 1s ease;
+}
+
+#githubpng:hover {
+    height: 33px;
+    width: 33px;
 }
