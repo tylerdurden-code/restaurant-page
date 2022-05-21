@@ -1,8 +1,12 @@
-function home() {
-    console.log('wine wine')
-}
+import {initializeHomepage} from './homepage.js'
 
-const homeBtn = document.querySelector('#home')
-homeBtn.addEventListener('click',() => {
-    home();
-})
+// function home() {
+//     console.log('wine wine')
+// }
+
+// const homeBtn = document.querySelector('#home')
+// homeBtn.addEventListener('click',() => {
+//     home();
+// })
+const content = document.querySelector('#content')
+initializeHomepage(content);
