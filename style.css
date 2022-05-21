@@ -10,7 +10,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.content {
+#content {
     display: flex;
     flex-direction: column;
 }
@@ -79,7 +79,7 @@ body {
     justify-content: center;
 }
 
-.content {
+#content {
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
@@ -112,4 +112,13 @@ body {
 #githubpng:hover {
     height: 33px;
     width: 33px;
+}
+.sec1 {
+    display: flex;
+    gap:10px
+
+}
+
+.sec2 {
+    color: white;
 }
