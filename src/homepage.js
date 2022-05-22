@@ -10,7 +10,33 @@ function creation(element,classo) {
 
 const content = document.querySelector('#content')
 
+export function containerHomepage(container) {
+
+
+    const homepage = creation('div','homepage');
+    container.appendChild(homepage)
+
+    const sec1 = creation('div','sec1')
+    const sec2 = creation('div','sec2')
+    homepage.appendChild(sec1)
+    homepage.appendChild(sec2)
+
+    const sec1img = document.createElement('img');
+    sec1img.setAttribute('src',"../assets/wineback.png")
+    sec1img.setAttribute('id','winebackground')
+    sec1.appendChild(sec1img)
+
+    const homeText = creation('div','home-text');
+    homeText.innerHTML = 'Welcome to the Wine World'
+    sec1.appendChild(homeText)
+
+    const para = document.createElement('p')
+    sec2.appendChild(para)
+}
+
 export function initializeHomepage(content) {
+
+    
     
     const contento = document.createElement('div')
     content.appendChild(contento)

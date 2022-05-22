@@ -83,11 +83,13 @@ body {
     min-height: 100%;
     display: grid;
     grid-template-rows: 1fr auto;
+
 }
 
 .container {
     flex: 1;
     border: 5px solid green;
+    padding: 10px;
 }
 
 html {
@@ -121,4 +123,21 @@ body {
 
 .sec2 {
     color: white;
+}
+
+.wineTitle {
+    color: red;
+}
+.container > ul {
+    color: red;
+    font-size: 40px;
+}
+
+.wineTitle {
+    font-size: 100px;
+}
+
+.paragraph {
+    color: red;
+    font-size: 40px;
 }
