@@ -22,7 +22,7 @@ export function containerHomepage(container) {
     homepage.appendChild(sec2)
 
     const sec1img = document.createElement('img');
-    sec1img.setAttribute('src',"../assets/wineback.png")
+    sec1img.setAttribute('src',"wineback.png")
     sec1img.setAttribute('id','winebackground')
     sec1.appendChild(sec1img)
 
@@ -86,7 +86,7 @@ export function initializeHomepage(content) {
     homepage.appendChild(sec2)
 
     const sec1img = document.createElement('img');
-    sec1img.setAttribute('src',"../assets/wineback.png")
+    sec1img.setAttribute('src',"wineback.png")
     sec1img.setAttribute('id','winebackground')
     sec1.appendChild(sec1img)
 
@@ -103,7 +103,7 @@ export function initializeHomepage(content) {
     footer.appendChild(aa)
 
     const footerImg = document.createElement('img')
-    footerImg.setAttribute('src',"../assets/github.png")
+    footerImg.setAttribute('src',"github.png")
     footerImg.setAttribute('id',"githubpng");
     aa.appendChild(footerImg)
     
